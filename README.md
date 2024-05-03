@@ -1,5 +1,5 @@
 ![](https://shonharsh.github.io/curriculum-vitae/images/banner-uipath.png)
-# //Project Pending - I am still updating all of the projects for the RPA Developer Foundation.  In doing so I am updating the existing C# Windows Legacy project while also rewriting them in both C# Windows and VB Windows.  I complete at least one project a day.
+
 # S05P03 Input Actions
 
 This project is my solution in **VB** to the **Input Actions** practice found in section 05 practice 03 of the UiPath - RPA Developer Foundation course.
@@ -36,7 +36,15 @@ Create a sequence that does the following Notepad automation:
 ### Sample Output
 
 ```
-
+05/01/2024 21:34:23 => [Debug] Debug started for file: Main
+05/01/2024 21:34:23 => [Info] RPADev-S05P03-InputActions-VB execution started
+05/01/2024 21:34:23 => [Info] RPADev-S05P03-InputActions-VB.Main.Begin;
+05/01/2024 21:34:28 => [Debug] Audit: Using Desktop App. App: C:\Windows\System32\notepad.exe Arguments:
+05/01/2024 21:34:41 => [Info] RPADev-S05P03-InputActions-VB.Main.OperationComplete;
+Text: Alpha, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliett, Kilo, Lima, Mike, November, Oscar, Papa, Quebec, Romeo, Sierra, Tango, Uniform, Victor, Whiskey, X-ray, Yankee, Zulu
+saved to Data\Output\RPADev-S05P03-InputActions.txt
+05/01/2024 21:34:41 => [Info] RPADev-S05P03-InputActions-VB.Main.End;
+05/01/2024 21:34:41 => [Info] RPADev-S05P03-InputActions-VB execution ended in: 00:00:17
 ```
 
 ### Architecture Requirements
